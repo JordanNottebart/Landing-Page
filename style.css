@@ -180,6 +180,7 @@ body {
 .action-button {
     border: solid 2px #F9FAF8;
     background-color: #3882F6;
+    font-weight: bold;
     color: #F9FAF8;
     padding: 5px 30px;
     border-radius: 5px;
@@ -188,4 +189,22 @@ body {
 
 .action-button:hover {
     background-color: #5c96f5;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-weight: 100;
+}
+
+.footer-text span {
+    margin-left: 5px;
+    margin-right: 5px;
 }
